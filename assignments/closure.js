@@ -1,6 +1,19 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
 
+function Hive() {
+  const queenBee = "Queen Pearl";
+  console.log(`${queenBee} rules!`);
+
+  function honeyComb(){
+    console.log(`${queenBee} lives here`)
+  }
+  honeyComb();
+}
+
+Hive();
+
+
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
